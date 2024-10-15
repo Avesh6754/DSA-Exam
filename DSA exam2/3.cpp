@@ -11,7 +11,7 @@ int decimalToBinay(int n)
 		decimal=n%10;
 	
 		n=n/10;
-		ans=(decimal*power);
+		ans+=(decimal*power);
 		
 		power*=2;
 	}
