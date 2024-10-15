@@ -9,7 +9,7 @@ int decimalToBinay(int n)
 	while(n>0)
 	{
 		decimal=n%2;
-		ans=(decimal*power);
+		ans+=(decimal*power);
 		n=n/2;
 		
 		power*=10;
